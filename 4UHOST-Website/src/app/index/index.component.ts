@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import 'src/assets/';
+// import 'src/assets/';
 
 @Component({
   selector: 'app-index',
