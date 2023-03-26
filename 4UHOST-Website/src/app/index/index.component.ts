@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-// import 'src/assets/';
-
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',

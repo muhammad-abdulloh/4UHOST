@@ -22,7 +22,7 @@ import Files
 ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
-@import url(normalize.css);
+/* @import url(normalize.css); not exist */
 @import url(icomoon.css);
 @import url(font-awesome.min.css);
 @import url(owl.carousel.min.css);
