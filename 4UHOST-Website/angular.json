@@ -24,9 +24,18 @@
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/style.css",
               "src/assets/css/responsive.css",
-              "src/assets/css/animate.min.css"
+              "src/assets/css/animate.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/icomoon.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
