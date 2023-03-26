@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { DomainComponent } from './domain/domain.component';
 import { HostingComponent } from './hosting/hosting.component';
 import { IndexComponent } from './index/index.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,10 +18,12 @@ import { IndexComponent } from './index/index.component';
     ContactComponent,
     DomainComponent,
     HostingComponent,
-    IndexComponent
+    IndexComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
