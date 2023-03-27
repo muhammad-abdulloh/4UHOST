@@ -90,10 +90,11 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": [
-              "src/assets/js/bootstrap.bundle.min.js",
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/custom.js",
-              "src/assets/js/jquery.min.js"]
+              "assets/js/bootstrap.bundle.min.js",
+              "assets/js/bootstrap.min.js",
+              "assets/js/custom.js",
+              "assets/js/jquery.min.js"
+            ]
           }
         }
       }

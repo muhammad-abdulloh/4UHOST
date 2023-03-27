@@ -1,7 +1,12 @@
 /*---------------------------------------------------------------------
     File Name: custom.js
 ---------------------------------------------------------------------*/
-
+function startaLoader(){
+	setTimeout(function () {
+		$('.loader_bg').hide();
+	}, 1500);
+}
+startaLoader();
 $(function () {
 	
 	"use strict";
@@ -9,16 +14,13 @@ $(function () {
 	/* Preloader
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
-	setTimeout(function () {
-		$('.loader_bg').fadeToggle();
-	}, 1500);
 	
 	/* Tooltip
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
-	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip();
-	});
+	// $(document).ready(function(){
+	// 	$('[data-toggle="tooltip"]').tooltip();
+	// });
 	
 	
 	
@@ -53,10 +55,10 @@ $(function () {
 
      /* Product slider 
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-     // optional
-     $('#blogCarousel').carousel({
-        interval: 5000
-     });
+    //  // optional
+    //  $('#blogCarousel').carousel({
+    //     interval: 5000
+    //  });
 
 
 });
