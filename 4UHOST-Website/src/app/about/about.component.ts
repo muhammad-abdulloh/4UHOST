@@ -16,4 +16,6 @@ export class AboutComponent {
       this.loader = true;
     }, 1500);
   }
+
+  // yuqoridagi loaderlar ruslanjon qigan o'zgarishlar
 }

@@ -7,6 +7,15 @@ function startaLoader(){
 	}, 1500);
 }
 startaLoader();
+
+// function startaLoader(){
+// 	setTimeout(function () {
+// 		$('.loader_bg').hide(); // masheta hidedan boshqa narsa boridi
+// 	}, 1500);
+// }
+// startaLoader();
+
+
 $(function () {
 	
 	"use strict";
