@@ -6,7 +6,7 @@ declare function startLoader(): any
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  loader: boolean = true;
+  // loader: boolean = true;
   constructor(){
     // this.loaderFunc();
   }
