@@ -8,14 +8,15 @@ declare function startLoader(): any
 export class AboutComponent {
   loader: boolean = true;
   constructor(){
-    this.loaderFunc();
+    // this.loaderFunc();
   }
 
-  loaderFunc(): void{
-    setTimeout( () => {
-      this.loader = true;
-    }, 1500);
-  }
+  // loaderFunc(): void{
+  //   setTimeout( () => {
+  //     this.loader = true;
+  //   }, 1500);
+  // }
+
 
   // yuqoridagi loaderlar ruslanjon qigan o'zgarishlar
 }
